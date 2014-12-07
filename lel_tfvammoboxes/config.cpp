@@ -28,6 +28,13 @@ class CfgPatches
 
 class CfgVehicles {
 	class Box_NATO_AmmoVeh_F;
+	class B_CargoNet_01_ammo_F;
+	
+	class TFV_CargoNet: B_CargoNet_01_ammo_F {
+		displayName = "TFV Cargo Net";
+		descriptionShort = "TFV Cargo Net";
+		};
+	
 	class loberg_TFV_ammobox_tl: Box_NATO_AmmoVeh_F {
 		displayName = "TFV TL Supplies";
 		descriptionShort = "TFV TL Supplies";
