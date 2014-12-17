@@ -15,7 +15,8 @@ class CfgPatches
 		"loberg_TFV_ammobox_crew",
 		"loberg_TFV_ammobox_aviation",
 		"loberg_TFV_ammobox_eod",
-		"loberg_TFV_ammobox_ammo"
+		"loberg_TFV_ammobox_ammo",
+		"TFV_CargoNet"
 		};
 		weapons[] = {};
 		requiredVersion = 1.0;
@@ -46,6 +47,8 @@ class CfgVehicles {
 			class _xx_20Rnd_mas_762x51_Stanag { magazine="20Rnd_mas_762x51_Stanag"; count=50; };
 			class _xx_L85_30Rnd_556x45_Stanag { magazine="L85_30Rnd_556x45_Stanag"; count=50; };
 			class _xx_g36_mag { magazine="g36_mag"; count=50; };
+			class _xx_R3F_30Rnd_556x45_HK416 { magazine="R3F_30Rnd_556x45_HK416"; count=50; };
+			class _xx_R3F_20Rnd_762x51_HK417 { magazine="R3F_20Rnd_762x51_HK417"; count=50; };
 			class _xx_R3F_30Rnd_556x45_FAMAS { magazine="R3F_30Rnd_556x45_FAMAS"; count=50; };
 			class _xx_200Rnd_mas_556x45_T_Stanag { magazine="200Rnd_mas_556x45_T_Stanag"; count=20; };
 			class _xx_150Rnd_762x51_Box_Tracer { magazine="150Rnd_762x51_Box_Tracer"; count=10; };
@@ -63,10 +66,10 @@ class CfgVehicles {
 			class TransportItems
 			{
 			class _xx_AGM_CableTie { name="AGM_CableTie"; count=30; };
-			class _xx_AGM_Bandage { name="AGM_Bandage"; count=50; };
-			class _xx_AGM_Morphine { name="AGM_Morphine"; count=30; };
-			class _xx_AGM_Epipen { name="AGM_Epipen"; count=30; };
-			class _xx_AGM_Bloodbag { name="AGM_Bloodbag"; count=30; };
+			class _xx_cse_bandage_basic { name="cse_bandage_basic"; count=50; };
+			class _xx_cse_morphine { name="cse_morphine"; count=30; };
+			class _xx_cse_epinephrine { name="cse_epinephrine"; count=30; };
+			class _xx_cse_blood_iv { name="cse_blood_iv"; count=30; };
 
 			};
 			
@@ -181,6 +184,8 @@ class CfgVehicles {
 		class TransportMagazines
 			{
 			class _xx_SmokeShell { magazine="SmokeShell"; count=100; };
+			class _xx_R3F_20Rnd_762x51_HK417 { magazine="R3F_20Rnd_762x51_HK417"; count=300; };
+			class _xx_R3F_20Rnd_762x51_TRACER_HK417 { magazine="R3F_20Rnd_762x51_TRACER_HK417"; count=100; };
 			class _xx_30Rnd_mas_556x45_Stanag { magazine="30Rnd_mas_556x45_Stanag"; count=300; };
 			class _xx_30Rnd_mas_556x45_T_Stanag { magazine="30Rnd_mas_556x45_T_Stanag"; count=100; };
 			class _xx_20Rnd_mas_762x51_Stanag { magazine="20Rnd_mas_762x51_Stanag"; count=300; };
@@ -192,13 +197,12 @@ class CfgVehicles {
 			
 		class TransportItems
 			{
-			class _xx_optic_mas_MRCO_camo { name="optic_mas_MRCO_camo"; count=10; };
-			class _xx_optic_MRCO { name="optic_MRCO"; count=10; };
-			class _xx_optic_mas_acog { name="optic_mas_acog"; count=10; };
+			class _xx_optic_mas_aim { name="optic_mas_aim"; count=10; };
+			class _xx_FHQ_optic_AIM_tan { name="FHQ_optic_AIM_tan"; count=10; };
 			class _xx_FHQ_optic_AC11704_tan { name="FHQ_optic_AC11704_tan"; count=10; };
 			class _xx_FHQ_optic_AC11704 { name="FHQ_optic_AC11704"; count=10; };
-			class _xx_FHQ_optic_HWS_G33_tan { name="FHQ_optic_HWS_G33_tan"; count=10; };
-			class _xx_FHQ_optic_HWS_G33 { name="FHQ_optic_HWS_G33"; count=10; };
+			class _xx_optic_mas_Holosight_blk { name="optic_mas_Holosight_blk"; count=10; };
+			class _xx_optic_Holosight { name="optic_Holosight"; count=10; };
 			class _xx_muzzle_snds_M { name="muzzle_snds_M"; count=10; };
 			class _xx_FHQ_acc_LLM01L { name="FHQ_acc_LLM01L"; count=10; };
 			class _xx_C1987_o_suppressor_sand { name="C1987_o_suppressor_sand"; count=10; };
@@ -279,15 +283,14 @@ class CfgVehicles {
 			
 		class TransportItems
 			{
-			class _xx_optic_mas_MRCO_camo { name="optic_mas_MRCO_camo"; count=10; };
-			class _xx_optic_MRCO { name="optic_MRCO"; count=10; };
-			class _xx_optic_mas_acog { name="optic_mas_acog"; count=10; };
+			class _xx_optic_mas_aim { name="optic_mas_aim"; count=10; };
+			class _xx_FHQ_optic_AIM_tan { name="FHQ_optic_AIM_tan"; count=10; };
 			class _xx_FHQ_optic_AC11704_tan { name="FHQ_optic_AC11704_tan"; count=10; };
 			class _xx_FHQ_optic_AC11704 { name="FHQ_optic_AC11704"; count=10; };
-			class _xx_FHQ_optic_HWS_G33_tan { name="FHQ_optic_HWS_G33_tan"; count=10; };
-			class _xx_FHQ_optic_HWS_G33 { name="FHQ_optic_HWS_G33"; count=10; };
+			class _xx_optic_mas_Holosight_blk { name="optic_mas_Holosight_blk"; count=10; };
+			class _xx_optic_Holosight { name="optic_Holosight"; count=10; };
 			class _xx_muzzle_snds_M { name="muzzle_snds_M"; count=10; };
-			class _xx_FHQ_acc_LLM01L { name="FHQ_acc_LLM01L"; count=10; };			
+			class _xx_FHQ_acc_LLM01L { name="FHQ_acc_LLM01L"; count=10; };		
 			};
 			
 		class TransportBackpacks
@@ -349,15 +352,14 @@ class CfgVehicles {
 			
 		class TransportItems
 			{
-			class _xx_optic_mas_MRCO_camo { name="optic_mas_MRCO_camo"; count=10; };
-			class _xx_optic_MRCO { name="optic_MRCO"; count=10; };
-			class _xx_optic_mas_acog { name="optic_mas_acog"; count=10; };
+			class _xx_optic_mas_aim { name="optic_mas_aim"; count=10; };
+			class _xx_FHQ_optic_AIM_tan { name="FHQ_optic_AIM_tan"; count=10; };
 			class _xx_FHQ_optic_AC11704_tan { name="FHQ_optic_AC11704_tan"; count=10; };
 			class _xx_FHQ_optic_AC11704 { name="FHQ_optic_AC11704"; count=10; };
-			class _xx_FHQ_optic_HWS_G33_tan { name="FHQ_optic_HWS_G33_tan"; count=10; };
-			class _xx_FHQ_optic_HWS_G33 { name="FHQ_optic_HWS_G33"; count=10; };
+			class _xx_optic_mas_Holosight_blk { name="optic_mas_Holosight_blk"; count=10; };
+			class _xx_optic_Holosight { name="optic_Holosight"; count=10; };
 			class _xx_muzzle_snds_M { name="muzzle_snds_M"; count=10; };
-			class _xx_FHQ_acc_LLM01L { name="FHQ_acc_LLM01L"; count=10; };		
+			class _xx_FHQ_acc_LLM01L { name="FHQ_acc_LLM01L"; count=10; };	
 			};
 			
 		class TransportBackpacks
@@ -485,13 +487,12 @@ class CfgVehicles {
 			
 		class TransportItems
 			{
-			class _xx_optic_mas_MRCO_camo { name="optic_mas_MRCO_camo"; count=10; };
-			class _xx_optic_MRCO { name="optic_MRCO"; count=10; };
-			class _xx_optic_mas_acog { name="optic_mas_acog"; count=10; };
+			class _xx_optic_mas_aim { name="optic_mas_aim"; count=10; };
+			class _xx_FHQ_optic_AIM_tan { name="FHQ_optic_AIM_tan"; count=10; };
 			class _xx_FHQ_optic_AC11704_tan { name="FHQ_optic_AC11704_tan"; count=10; };
 			class _xx_FHQ_optic_AC11704 { name="FHQ_optic_AC11704"; count=10; };
-			class _xx_FHQ_optic_HWS_G33_tan { name="FHQ_optic_HWS_G33_tan"; count=10; };
-			class _xx_FHQ_optic_HWS_G33 { name="FHQ_optic_HWS_G33"; count=10; };
+			class _xx_optic_mas_Holosight_blk { name="optic_mas_Holosight_blk"; count=10; };
+			class _xx_optic_Holosight { name="optic_Holosight"; count=10; };
 			class _xx_muzzle_snds_M { name="muzzle_snds_M"; count=10; };
 			class _xx_FHQ_acc_LLM01L { name="FHQ_acc_LLM01L"; count=10; };
 			};
@@ -599,6 +600,8 @@ class CfgVehicles {
 			class _xx_30Rnd_mas_556x45_T_Stanag { magazine="30Rnd_mas_556x45_T_Stanag"; count=100; };
 			class _xx_20Rnd_mas_762x51_Stanag { magazine="20Rnd_mas_762x51_Stanag"; count=300; };
 			class _xx_20Rnd_mas_762x51_T_Stanag { magazine="20Rnd_mas_762x51_T_Stanag"; count=100; };
+			class _xx_R3F_30Rnd_556x45_HK416 { magazine="R3F_30Rnd_556x45_HK416"; count=300; };
+			class _xx_R3F_30Rnd_556x45_TRACER_HK416 { magazine="R3F_30Rnd_556x45_TRACER_HK416"; count=100; };
 			class _xx_R3F_30Rnd_556x45_FAMAS { magazine="R3F_30Rnd_556x45_FAMAS"; count=300; };
 			class _xx_R3F_30Rnd_556x45_TRACER_FAMAS { magazine="R3F_30Rnd_556x45_TRACER_FAMAS"; count=100; };
 			class _xx_g36_mag { magazine="g36_mag"; count=300; };
@@ -608,15 +611,14 @@ class CfgVehicles {
 			
 		class TransportItems
 			{
-			class _xx_optic_mas_MRCO_camo { name="optic_mas_MRCO_camo"; count=10; };
-			class _xx_optic_MRCO { name="optic_MRCO"; count=10; };
-			class _xx_optic_mas_acog { name="optic_mas_acog"; count=10; };
+			class _xx_optic_mas_aim { name="optic_mas_aim"; count=10; };
+			class _xx_FHQ_optic_AIM_tan { name="FHQ_optic_AIM_tan"; count=10; };
 			class _xx_FHQ_optic_AC11704_tan { name="FHQ_optic_AC11704_tan"; count=10; };
 			class _xx_FHQ_optic_AC11704 { name="FHQ_optic_AC11704"; count=10; };
-			class _xx_FHQ_optic_HWS_G33_tan { name="FHQ_optic_HWS_G33_tan"; count=10; };
-			class _xx_FHQ_optic_HWS_G33 { name="FHQ_optic_HWS_G33"; count=10; };
+			class _xx_optic_mas_Holosight_blk { name="optic_mas_Holosight_blk"; count=10; };
+			class _xx_optic_Holosight { name="optic_Holosight"; count=10; };
 			class _xx_muzzle_snds_M { name="muzzle_snds_M"; count=10; };
-			class _xx_FHQ_acc_LLM01L { name="FHQ_acc_LLM01L"; count=10; };		
+			class _xx_FHQ_acc_LLM01L { name="FHQ_acc_LLM01L"; count=10; };	
 			};
 			
 		class TransportBackpacks
@@ -852,6 +854,8 @@ class CfgVehicles {
 			class _xx_30Rnd_mas_556x45_Stanag { magazine="30Rnd_mas_556x45_Stanag"; count=300; };
 			class _xx_20Rnd_mas_762x51_Stanag { magazine="20Rnd_mas_762x51_Stanag"; count=300; };
 			class _xx_L85_30Rnd_556x45_Stanag { magazine="L85_30Rnd_556x45_Stanag"; count=300; };
+			class _xx_R3F_30Rnd_556x45_HK416 { magazine="R3F_30Rnd_556x45_HK416"; count=300; };
+			class _xx_R3F_20Rnd_762x51_HK417 { magazine="R3F_20Rnd_762x51_HK417"; count=300; };
 			class _xx_g36_mag { magazine="g36_mag"; count=300; };
 			class _xx_R3F_30Rnd_556x45_FAMAS { magazine="R3F_30Rnd_556x45_FAMAS"; count=300; };
 			class _xx_200Rnd_mas_556x45_T_Stanag { magazine="200Rnd_mas_556x45_T_Stanag"; count=100; };
@@ -870,10 +874,10 @@ class CfgVehicles {
 		class TransportItems
 			{
 			class _xx_AGM_CableTie { name="AGM_CableTie"; count=100; };
-			class _xx_AGM_Bandage { name="AGM_Bandage"; count=300; };
-			class _xx_AGM_Morphine { name="AGM_Morphine"; count=100; };
-			class _xx_AGM_Epipen { name="AGM_Epipen"; count=100; };
-			class _xx_AGM_Bloodbag { name="AGM_Bloodbag"; count=100; };
+			class _xx_cse_bandage_basic { name="cse_bandage_basic"; count=300; };
+			class _xx_cse_morphine { name="cse_morphine"; count=100; };
+			class _xx_cse_epinephrine { name="cse_epinephrine"; count=100; };
+			class _xx_cse_blood_iv { name="cse_blood_iv"; count=100; };
 			};
 			
 		class TransportBackpacks
