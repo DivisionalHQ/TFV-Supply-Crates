@@ -43,33 +43,28 @@ class CfgVehicles {
 			{
 			class _xx_SmokeShell { magazine="SmokeShell"; count=50; };
 			class _xx_SmokeShellRed { magazine="SmokeShellRed"; count=50; };
-			class _xx_30Rnd_mas_556x45_Stanag { magazine="30Rnd_mas_556x45_Stanag"; count=50; };
+			class _xx_30Rnd_556x45_Stanag { magazine="30Rnd_556x45_Stanag"; count=50; };
 			class _xx_20Rnd_mas_762x51_Stanag { magazine="20Rnd_mas_762x51_Stanag"; count=50; };
-			class _xx_L85_30Rnd_556x45_Stanag { magazine="L85_30Rnd_556x45_Stanag"; count=50; };
-			class _xx_g36_mag { magazine="g36_mag"; count=50; };
-			class _xx_R3F_30Rnd_556x45_HK416 { magazine="R3F_30Rnd_556x45_HK416"; count=50; };
-			class _xx_R3F_20Rnd_762x51_HK417 { magazine="R3F_20Rnd_762x51_HK417"; count=50; };
-			class _xx_R3F_30Rnd_556x45_FAMAS { magazine="R3F_30Rnd_556x45_FAMAS"; count=50; };
-			class _xx_200Rnd_mas_556x45_T_Stanag { magazine="200Rnd_mas_556x45_T_Stanag"; count=20; };
-			class _xx_150Rnd_762x51_Box_Tracer { magazine="150Rnd_762x51_Box_Tracer"; count=10; };
-			class _xx_sti_200Rnd_556x45_Tracer { magazine="sti_200Rnd_556x45_Tracer"; count=10; };
-			class _xx_sti_100Rnd_762x51_Tracer { magazine="sti_100Rnd_762x51_Tracer"; count=10; };
-			class _xx_sti_100Rnd_556x45_Tracer { magazine="sti_100Rnd_556x45_Tracer"; count=10; };
-			class _xx_100Rnd_mas_762x51_Stanag { magazine="100Rnd_mas_762x51_Stanag"; count=50; };
-			class _xx_5Rnd_mas_762x51_Stanag { magazine="5Rnd_mas_762x51_Stanag"; count=30; };
-			class _xx_5Rnd_mas_127x99_Stanag { magazine="5Rnd_mas_127x99_Stanag"; count=30; };
-			class _xx_STI_84MM_HEAT { magazine="STI_84MM_HEAT"; count=20; };
-			class _xx_STI_84MM_HE { magazine="STI_84MM_HE"; count=20; };
-			class _xx_STI_84MM_SMOKE { magazine="STI_84MM_SMOKE"; count=20; };
+			class _xx_200Rnd_mas_556x45_T_Stanag { magazine="200Rnd_mas_556x45_T_Stanag"; count=50; };
+			class _xx_150Rnd_762x51_Box_Tracer { magazine="150Rnd_762x51_Box_Tracer"; count=50; };
+			class _xx_sti_200Rnd_556x45_Tracer { magazine="sti_200Rnd_556x45_Tracer"; count=50; };
+			class _xx_sti_100Rnd_762x51_Tracer { magazine="sti_100Rnd_762x51_Tracer"; count=50; };
+			class _xx_sti_100Rnd_556x45_Tracer { magazine="sti_100Rnd_556x45_Tracer"; count=50; };
+			class _xx_100Rnd_mas_762x51_Stanag { magazine="100Rnd_mas_762x51_Stanag"; count=20; };
+			class _xx_5Rnd_mas_762x51_Stanag { magazine="5Rnd_mas_762x51_Stanag"; count=10; };
+			class _xx_5Rnd_mas_127x99_Stanag { magazine="5Rnd_mas_127x99_Stanag"; count=10; };
+			class _xx_STI_84MM_HEAT { magazine="STI_84MM_HEAT"; count=10; };
+			class _xx_STI_84MM_HE { magazine="STI_84MM_HE"; count=10; };
+			class _xx_STI_84MM_SMOKE { magazine="STI_84MM_SMOKE"; count=50; };
 			};
 			
 			class TransportItems
 			{
-			class _xx_AGM_CableTie { name="AGM_CableTie"; count=30; };
-			class _xx_cse_bandage_basic { name="cse_bandage_basic"; count=50; };
-			class _xx_cse_morphine { name="cse_morphine"; count=30; };
+			class _xx_AGM_CableTie { name="AGM_CableTie"; count=20; };
+			class _xx_cse_bandage_basic { name="cse_bandage_basic"; count=20; };
+			class _xx_cse_morphine { name="cse_morphine"; count=20; };
 			class _xx_cse_epinephrine { name="cse_epinephrine"; count=30; };
-			class _xx_cse_blood_iv { name="cse_blood_iv"; count=30; };
+			class _xx_cse_saline_iv { name="cse_saline_iv"; count=30; };
 
 			};
 			
@@ -105,26 +100,22 @@ class CfgVehicles {
 			class _xx_arifle_Mk20_GL_plain_F { weapon="arifle_Mk20_GL_plain_F"; count=10; };
 			class _xx_arifle_MX_GL_Black_F { weapon="arifle_MX_GL_Black_F"; count=10; };
 			class _xx_arifle_mas_mk16_l_gl { weapon="arifle_mas_mk16_l_gl"; count=10; };
-			class _xx_arifle_Mk20_plain_F { weapon="arifle_Mk20_plain_F"; count=10; };
-			class _xx_arifle_MX_Black_F { weapon="arifle_MX_Black_F"; count=10; };
-			class _xx_arifle_mas_mk16_l { weapon="arifle_mas_mk16_l"; count=10; };
-			class _xx_R3F_HK416M { weapon="R3F_HK416M"; count=10; };
+			class _xx_arifle_mas_hk416_gl { weapon="arifle_mas_hk416_gl"; count=10; };
 			};
 
 		class TransportMagazines
 			{
-			class _xx_SmokeShell { magazine="SmokeShell"; count=100; };
-			class _xx_SmokeShellRed { magazine="SmokeShellRed"; count=100; };
-			class _xx_SmokeShellGreen { magazine="SmokeShellGreen"; count=100; };
+			class _xx_rhs_mag_m4009 { magazine="rhs_mag_m4009"; count=100; };
 			class _xx_1Rnd_HE_Grenade_shell { magazine="1Rnd_HE_Grenade_shell"; count=100; };
 			class _xx_1Rnd_Smoke_Grenade_shell { magazine="1Rnd_Smoke_Grenade_shell"; count=100; };
 			class _xx_1Rnd_SmokeRed_Grenade_shell { magazine="1Rnd_SmokeRed_Grenade_shell"; count=100; };
 			class _xx_30Rnd_556x45_Stanag { magazine="30Rnd_556x45_Stanag"; count=300; };
 			class _xx_30Rnd_556x45_Stanag_Tracer_Green { magazine="30Rnd_556x45_Stanag_Tracer_Green"; count=100; };
-			class _xx_30Rnd_mas_556x45_Stanag { magazine="30Rnd_mas_556x45_Stanag"; count=300; };
-			class _xx_30Rnd_mas_556x45_T_Stanag { magazine="30Rnd_mas_556x45_T_Stanag"; count=100; };
 			class _xx_30Rnd_65x39_caseless_mag { magazine="30Rnd_65x39_caseless_mag"; count=100; };
 			class _xx_AGM_30Rnd_65x39_caseless_mag_Tracer_Dim { magazine="AGM_30Rnd_65x39_caseless_mag_Tracer_Dim"; count=100; };
+			class _xx_SmokeShell { magazine="SmokeShell"; count=100; };
+			class _xx_SmokeShellRed { magazine="SmokeShellRed"; count=100; };
+			class _xx_SmokeShellGreen { magazine="SmokeShellGreen"; count=100; };
 			};			
 
 		class TransportItems
@@ -143,6 +134,7 @@ class CfgVehicles {
 			class _xx_hlc_muzzle_556NATO_KAC { name="hlc_muzzle_556NATO_KAC"; count=10; };
 			class _xx_R3F_SILENCIEUX_HK416 { name="R3F_SILENCIEUX_HK416"; count=10; };
 			class _xx_FHQ_acc_LLM01L { name="FHQ_acc_LLM01L"; count=10; };
+			class _xx_FHQ_acc_ANPEQ15_black { name="FHQ_acc_ANPEQ15_black"; count=10; };
 			};
 			
 		class TransportBackpacks
@@ -173,58 +165,45 @@ class CfgVehicles {
 		
 		class TransportWeapons
 			{
-			class _xx_arifle_mas_m4c_sd { weapon="arifle_mas_m4c_sd"; count=10; };
-			class _xx_arifle_mas_hk416c_sd { weapon="arifle_mas_hk416c_sd"; count=10; };
-			class _xx_arifle_mas_l119_sd { weapon="arifle_mas_l119_sd"; count=10; };
-			class _xx_arifle_mas_mk16_sd { weapon="arifle_mas_mk16_sd"; count=10; };
-			class _xx_arifle_mas_mp5_sd { weapon="arifle_mas_mp5_sd"; count=10; };
-			class _xx_G36c { weapon="G36c"; count=10; };
-			class _xx_C1987_Mp7_sand { weapon="C1987_Mp7_sand"; count=10; };
+			class _xx_hlc_smg_mp5n { weapon="hlc_smg_mp5n"; count=10; };
+			class _xx_C1987_MP7 { weapon="C1987_MP7"; count=10; };
+			class _xx_arifle_Mk20C_plain_F { weapon="arifle_Mk20C_plain_F"; count=10; };
+			class _xx_arifle_MXC_Black_F { weapon="arifle_MXC_Black_F"; count=10; };
+			class _xx_hlc_rifle_CQBR { weapon="hlc_rifle_CQBR"; count=10; };
 			};
 		
 		class TransportMagazines
 			{
 			class _xx_SmokeShell { magazine="SmokeShell"; count=100; };
-			class _xx_R3F_20Rnd_762x51_HK417 { magazine="R3F_20Rnd_762x51_HK417"; count=300; };
-			class _xx_R3F_20Rnd_762x51_TRACER_HK417 { magazine="R3F_20Rnd_762x51_TRACER_HK417"; count=100; };
-			class _xx_30Rnd_mas_556x45_Stanag { magazine="30Rnd_mas_556x45_Stanag"; count=300; };
-			class _xx_30Rnd_mas_556x45_T_Stanag { magazine="30Rnd_mas_556x45_T_Stanag"; count=100; };
-			class _xx_20Rnd_mas_762x51_Stanag { magazine="20Rnd_mas_762x51_Stanag"; count=300; };
-			class _xx_20Rnd_mas_762x51_T_Stanag { magazine="20Rnd_mas_762x51_T_Stanag"; count=300; };
-			class _xx_30Rnd_mas_9x21_Stanag { magazine="30Rnd_mas_9x21_Stanag"; count=100; };
+			class _xx_hlc_30Rnd_9x19_B_MP5 { magazine="hlc_30Rnd_9x19_B_MP5"; count=300; };
+			class _xx_hlc_30Rnd_9x19_SD_MP5 { magazine="hlc_30Rnd_9x19_SD_MP5"; count=100; };
+			class _xx_30Rnd_556x45_Stanag { magazine="30Rnd_556x45_Stanag"; count=300; };
+			class _xx_30Rnd_556x45_Stanag_Tracer_Green { magazine="30Rnd_556x45_Stanag_Tracer_Green"; count=100; };
 			class _xx_C1987_40Rnd_46x30_mp7 { magazine="C1987_40Rnd_46x30_mp7"; count=300; };
-			class _xx_g36_mag { magazine="g36_mag"; count=300; };
 			};
 			
 		class TransportItems
 			{
+			class _xx_cse_packing_bandage { name="cse_packing_bandage"; count=300; };
+			class _xx_cse_morphine { name="cse_morphine"; count=100; };
+			class _xx_cse_epinephrine { name="cse_epinephrine"; count=100; };
+			class _xx_cse_tourniquet { name="cse_tourniquet"; count=100; };
+			class _xx_cse_atropine { name="cse_atropine"; count=100; };
+			class _xx_cse_saline_iv { name="cse_saline_iv"; count=100; };
+			class _xx_cse_bandageElastic { name="cse_bandageElastic"; count=100; };
+			class _xx_cse_personal_aid_kit { name="cse_personal_aid_kit"; count=10; };
+			class _xx_cse_itemBodyBag { name="cse_itemBodyBag"; count=100; };
 			class _xx_optic_mas_aim { name="optic_mas_aim"; count=10; };
-			class _xx_FHQ_optic_AIM_tan { name="FHQ_optic_AIM_tan"; count=10; };
+			class _xx_rhsusf_acc_compm4 { name="rhsusf_acc_compm4"; count=10; };
 			class _xx_FHQ_optic_AC11704_tan { name="FHQ_optic_AC11704_tan"; count=10; };
 			class _xx_FHQ_optic_AC11704 { name="FHQ_optic_AC11704"; count=10; };
 			class _xx_optic_mas_Holosight_blk { name="optic_mas_Holosight_blk"; count=10; };
 			class _xx_optic_Holosight { name="optic_Holosight"; count=10; };
 			class _xx_muzzle_snds_M { name="muzzle_snds_M"; count=10; };
+			class _xx_muzzle_snds_L { name="muzzle_snds_L"; count=10; };
+			class _xx_muzzle_snds_H { name="muzzle_snds_H"; count=10; };
+			class _xx_C1987_o_suppressor { name="C1987_o_suppressor"; count=10; };
 			class _xx_FHQ_acc_LLM01L { name="FHQ_acc_LLM01L"; count=10; };
-			class _xx_C1987_o_suppressor_sand { name="C1987_o_suppressor_sand"; count=10; };
-			class _xx_cse_packing_bandage { name="cse_packing_bandage"; count=300; };
-			class _xx_cse_morphine { name="cse_morphine"; count=100; };
-			class _xx_cse_epinephrine { name="cse_epinephrine"; count=100; };
-			class _xx_cse_blood_iv { name="cse_blood_iv"; count=100; };
-			class _xx_cse_tourniquet { name="cse_tourniquet"; count=100; };
-			class _xx_cse_splint { name="cse_splint"; count=100; };
-			class _xx_cse_atropine { name="cse_atropine"; count=100; };
-			class _xx_cse_plasma_iv { name="cse_plasma_iv"; count=100; };
-			class _xx_cse_saline_iv { name="cse_saline_iv"; count=100; };
-			class _xx_cse_quikclot { name="cse_quikclot"; count=100; };
-			class _xx_cse_nasopharyngeal_tube { name="cse_nasopharyngeal_tube"; count=100; };
-			class _xx_cse_opa { name="cse_opa"; count=100; };
-			class _xx_cse_bandageElastic { name="cse_bandageElastic"; count=100; };
-			class _xx_cse_liquidSkin { name="cse_liquidSkin"; count=100; };
-			class _xx_cse_chestseal { name="cse_chestseal"; count=100; };
-			class _xx_cse_personal_aid_kit { name="cse_personal_aid_kit"; count=100; };
-			class _xx_cse_surgical_kit { name="cse_surgical_kit"; count=100; };
-			class _xx_cse_itemBodyBag { name="cse_itemBodyBag"; count=100; };
 			};
 			
 		class TransportBackpacks
@@ -251,32 +230,27 @@ class CfgVehicles {
 		};
 		class TransportWeapons
 			{
-			class _xx_arifle_mas_m4_sd { weapon="arifle_mas_m4_sd"; count=10; };
-			class _xx_arifle_mas_m4c_sd { weapon="arifle_mas_m4c_sd"; count=10; };
-			class _xx_arifle_mas_hk416_sd { weapon="arifle_mas_hk416_sd"; count=10; };
-			class _xx_arifle_mas_hk416c_sd { weapon="arifle_mas_hk416c_sd"; count=10; };
-			class _xx_arifle_mas_l119_sd { weapon="arifle_mas_l119_sd"; count=10; };
-			class _xx_arifle_mas_mk16_l_sd { weapon="arifle_mas_mk16_l_sd"; count=10; };
-			class _xx_arifle_mas_mk17_sd { weapon="arifle_mas_mk17_sd"; count=10; };
-			class _xx_arifle_mas_m16_sd { weapon="arifle_mas_m16_sd"; count=10; };
-			class _xx_R3F_Famas_G2_HG { weapon="R3F_Famas_G2_HG"; count=10; };
-			class _xx_G36k_r { weapon="G36k_r"; count=10; };
-			class _xx_kio_l85a2_s { weapon="kio_l85a2_s"; count=10; };
+			class _xx_hlc_rifle_RU556 { weapon="hlc_rifle_RU556"; count=10; };
+			class _xx_hlc_rifle_Colt727 { weapon="hlc_rifle_Colt727"; count=10; };
+			class _xx_hlc_rifle_M4 { weapon="hlc_rifle_M4"; count=10; };
+			class _xx_rhs_weap_m16a4 { weapon="rhs_weap_m16a4"; count=10; };
+			class _xx_rhs_weap_m4a1 { weapon="rhs_weap_m4a1"; count=10; };
+			class _xx_RHARD_M4DDRPD_F { weapon="RHARD_M4DDRPD_F"; count=10; };
+			class _xx_RHARD_MK18AFG_F { weapon="RHARD_MK18AFG_F"; count=10; };
+			class _xx_arifle_Mk20_plain_F { weapon="arifle_Mk20_plain_F"; count=10; };
+			class _xx_arifle_MX_Black_F { weapon="arifle_MX_Black_F"; count=10; };
+			class _xx_arifle_mas_mk16_l { weapon="arifle_mas_mk16_l"; count=10; };
+			class _xx_R3F_HK416M { weapon="R3F_HK416M"; count=10; };
 			class _xx_STI_MAAWS { weapon="STI_MAAWS"; count=10; };
 			};
 		
 		class TransportMagazines
 			{
 			class _xx_SmokeShell { magazine="SmokeShell"; count=100; };
-			class _xx_30Rnd_mas_556x45_Stanag { magazine="30Rnd_mas_556x45_Stanag"; count=300; };
-			class _xx_30Rnd_mas_556x45_T_Stanag { magazine="30Rnd_mas_556x45_T_Stanag"; count=100; };
-			class _xx_20Rnd_mas_762x51_Stanag { magazine="20Rnd_mas_762x51_Stanag"; count=300; };
-			class _xx_20Rnd_mas_762x51_T_Stanag { magazine="20Rnd_mas_762x51_T_Stanag"; count=100; };
-			class _xx_R3F_30Rnd_556x45_FAMAS { magazine="R3F_30Rnd_556x45_FAMAS"; count=300; };
-			class _xx_R3F_30Rnd_556x45_TRACER_FAMAS { magazine="R3F_30Rnd_556x45_TRACER_FAMAS"; count=100; };
-			class _xx_g36_mag { magazine="g36_mag"; count=300; };
-			class _xx_L85_30Rnd_556x45_Stanag { magazine="L85_30Rnd_556x45_Stanag"; count=300; };
-			class _xx_L85_30Rnd_556x45_Stanag_Tracer { magazine="L85_30Rnd_556x45_Stanag_Tracer"; count=100; };
+			class _xx_30Rnd_556x45_Stanag { magazine="30Rnd_556x45_Stanag"; count=300; };
+			class _xx_30Rnd_556x45_Stanag_Tracer_Green { magazine="30Rnd_556x45_Stanag_Tracer_Green"; count=100; };
+			class _xx_30Rnd_65x39_caseless_mag { magazine="30Rnd_65x39_caseless_mag"; count=100; };
+			class _xx_AGM_30Rnd_65x39_caseless_mag_Tracer_Dim { magazine="AGM_30Rnd_65x39_caseless_mag_Tracer_Dim"; count=100; };
 			class _xx_STI_84MM_HEAT { magazine="STI_84MM_HEAT"; count=20; };
 			class _xx_STI_84MM_HE { magazine="STI_84MM_HE"; count=20; };
 			class _xx_STI_84MM_SMOKE { magazine="STI_84MM_SMOKE"; count=20; };
@@ -284,14 +258,18 @@ class CfgVehicles {
 			
 		class TransportItems
 			{
-			class _xx_optic_mas_aim { name="optic_mas_aim"; count=10; };
+			class _xx_rhsusf_acc_compm4 { name="rhsusf_acc_compm4"; count=10; };
 			class _xx_FHQ_optic_AIM_tan { name="FHQ_optic_AIM_tan"; count=10; };
 			class _xx_FHQ_optic_AC11704_tan { name="FHQ_optic_AC11704_tan"; count=10; };
 			class _xx_FHQ_optic_AC11704 { name="FHQ_optic_AC11704"; count=10; };
 			class _xx_optic_mas_Holosight_blk { name="optic_mas_Holosight_blk"; count=10; };
 			class _xx_optic_Holosight { name="optic_Holosight"; count=10; };
 			class _xx_muzzle_snds_M { name="muzzle_snds_M"; count=10; };
-			class _xx_FHQ_acc_LLM01L { name="FHQ_acc_LLM01L"; count=10; };		
+			class _xx_muzzle_snds_H { name="muzzle_snds_H"; count=10; };
+			class _xx_hlc_muzzle_556NATO_KAC { name="hlc_muzzle_556NATO_KAC"; count=10; };
+			class _xx_R3F_SILENCIEUX_HK416 { name="R3F_SILENCIEUX_HK416"; count=10; };
+			class _xx_FHQ_acc_LLM01L { name="FHQ_acc_LLM01L"; count=10; };
+			class _xx_FHQ_acc_ANPEQ15_black { name="FHQ_acc_ANPEQ15_black"; count=10; };	
 			};
 			
 		class TransportBackpacks
@@ -321,46 +299,43 @@ class CfgVehicles {
 		
 		class TransportWeapons
 			{
-			class _xx_arifle_mas_m4_m203_sd { weapon="arifle_mas_m4_m203_sd"; count=10; };
-			class _xx_arifle_mas_m4_m203c_sd { weapon="arifle_mas_m4_m203c_sd"; count=10; };
-			class _xx_arifle_mas_hk416_m203_sd { weapon="arifle_mas_hk416_m203_sd"; count=10; };
-			class _xx_arifle_mas_hk416_m203c_sd { weapon="arifle_mas_hk416_m203c_sd"; count=10; };
-			class _xx_arifle_mas_l119_m203_sd { weapon="arifle_mas_l119_m203_sd"; count=10; };
-			class _xx_arifle_mas_mk16_l_gl_sd { weapon="arifle_mas_mk16_l_gl_sd"; count=10; };
-			class _xx_arifle_mas_mk17_gl_sd { weapon="arifle_mas_mk17_gl_sd"; count=10; };
-			class _xx_arifle_mas_m16_gl_sd { weapon="arifle_mas_m16_gl_sd"; count=10; };
-			class _xx_R3F_Famas_G2_M203 { weapon="R3F_Famas_G2_M203"; count=10; };
-			class _xx_G36k_rgl { weapon="G36k_rgl"; count=10; };
-			class _xx_arifle_mas_g3s_m203 { weapon="arifle_mas_g3s_m203"; count=10; };
+			class _xx_hlc_rifle_Colt727_GL { weapon="hlc_rifle_Colt727_GL"; count=10; };
+			class _xx_rhs_m4_m320 { weapon="rhs_m4_m320"; count=10; };
+			class _xx_rhs_m4a1_m320 { weapon="rhs_m4a1_m320"; count=10; };
+			class _xx_RHARD_M4DDRGLD_F { weapon="RHARD_M4DDRGLD_F"; count=10; };
+			class _xx_arifle_Mk20_GL_plain_F { weapon="arifle_Mk20_GL_plain_F"; count=10; };
+			class _xx_arifle_MX_GL_Black_F { weapon="arifle_MX_GL_Black_F"; count=10; };
+			class _xx_arifle_mas_mk16_l_gl { weapon="arifle_mas_mk16_l_gl"; count=10; };
+			class _xx_arifle_mas_hk416_gl { weapon="arifle_mas_hk416_gl"; count=10; };
 			};
 		
 		class TransportMagazines
 			{
 			class _xx_SmokeShell { magazine="SmokeShell"; count=100; };
-			class _xx_30Rnd_mas_556x45_Stanag { magazine="30Rnd_mas_556x45_Stanag"; count=300; };
-			class _xx_30Rnd_mas_556x45_T_Stanag { magazine="30Rnd_mas_556x45_T_Stanag"; count=100; };
-			class _xx_20Rnd_mas_762x51_Stanag { magazine="20Rnd_mas_762x51_Stanag"; count=300; };
-			class _xx_20Rnd_mas_762x51_T_Stanag { magazine="20Rnd_mas_762x51_T_Stanag"; count=100; };
-			class _xx_R3F_30Rnd_556x45_FAMAS { magazine="R3F_30Rnd_556x45_FAMAS"; count=300; };
-			class _xx_R3F_30Rnd_556x45_TRACER_FAMAS { magazine="R3F_30Rnd_556x45_TRACER_FAMAS"; count=100; };
-			class _xx_g36_mag { magazine="g36_mag"; count=300; };
-			class _xx_L85_30Rnd_556x45_Stanag { magazine="L85_30Rnd_556x45_Stanag"; count=300; };
-			class _xx_L85_30Rnd_556x45_Stanag_Tracer { magazine="L85_30Rnd_556x45_Stanag_Tracer"; count=100; };
+			class _xx_rhs_mag_m4009 { magazine="rhs_mag_m4009"; count=100; };
 			class _xx_1Rnd_HE_Grenade_shell { magazine="1Rnd_HE_Grenade_shell"; count=100; };
 			class _xx_1Rnd_Smoke_Grenade_shell { magazine="1Rnd_Smoke_Grenade_shell"; count=100; };
-			class _xx_1Rnd_SmokeRed_Grenade_shell { magazine="1Rnd_SmokeRed_Grenade_shell"; count=100; };	
+			class _xx_1Rnd_SmokeRed_Grenade_shell { magazine="1Rnd_SmokeRed_Grenade_shell"; count=100; };
+			class _xx_30Rnd_556x45_Stanag { magazine="30Rnd_556x45_Stanag"; count=300; };
+			class _xx_30Rnd_556x45_Stanag_Tracer_Green { magazine="30Rnd_556x45_Stanag_Tracer_Green"; count=100; };
+			class _xx_30Rnd_65x39_caseless_mag { magazine="30Rnd_65x39_caseless_mag"; count=100; };
+			class _xx_AGM_30Rnd_65x39_caseless_mag_Tracer_Dim { magazine="AGM_30Rnd_65x39_caseless_mag_Tracer_Dim"; count=100; };	
 			};
 			
 		class TransportItems
 			{
-			class _xx_optic_mas_aim { name="optic_mas_aim"; count=10; };
+			class _xx_rhsusf_acc_compm4 { name="rhsusf_acc_compm4"; count=10; };
 			class _xx_FHQ_optic_AIM_tan { name="FHQ_optic_AIM_tan"; count=10; };
 			class _xx_FHQ_optic_AC11704_tan { name="FHQ_optic_AC11704_tan"; count=10; };
 			class _xx_FHQ_optic_AC11704 { name="FHQ_optic_AC11704"; count=10; };
 			class _xx_optic_mas_Holosight_blk { name="optic_mas_Holosight_blk"; count=10; };
 			class _xx_optic_Holosight { name="optic_Holosight"; count=10; };
 			class _xx_muzzle_snds_M { name="muzzle_snds_M"; count=10; };
-			class _xx_FHQ_acc_LLM01L { name="FHQ_acc_LLM01L"; count=10; };	
+			class _xx_muzzle_snds_H { name="muzzle_snds_H"; count=10; };
+			class _xx_hlc_muzzle_556NATO_KAC { name="hlc_muzzle_556NATO_KAC"; count=10; };
+			class _xx_R3F_SILENCIEUX_HK416 { name="R3F_SILENCIEUX_HK416"; count=10; };
+			class _xx_FHQ_acc_LLM01L { name="FHQ_acc_LLM01L"; count=10; };
+			class _xx_FHQ_acc_ANPEQ15_black { name="FHQ_acc_ANPEQ15_black"; count=10; };
 			};
 			
 		class TransportBackpacks
@@ -389,13 +364,13 @@ class CfgVehicles {
 		
 		class TransportWeapons
 			{
-			class _xx_Laserdesignator { weapon="Laserdesignator"; count=10; };
 			class _xx_srifle_mas_ebr_h { weapon="srifle_mas_ebr_h"; count=10; };
 			class _xx_srifle_mas_mk17s_h { weapon="srifle_mas_mk17s_h"; count=10; };
 			class _xx_srifle_mas_hk417_h { weapon="srifle_mas_hk417_h"; count=10; };
 			class _xx_srifle_mas_sr25_h { weapon="srifle_mas_sr25_h"; count=10; };
 			class _xx_srifle_mas_m24_h { weapon="srifle_mas_m24_h"; count=10; };
 			class _xx_srifle_mas_m107_h { weapon="srifle_mas_m107_h"; count=10; };
+			class _xx_Laserdesignator { weapon="Laserdesignator"; count=10; };
 			};
 		
 		class TransportMagazines
@@ -488,7 +463,7 @@ class CfgVehicles {
 			
 		class TransportItems
 			{
-			class _xx_optic_mas_aim { name="optic_mas_aim"; count=10; };
+			class _xx_rhsusf_acc_compm4 { name="rhsusf_acc_compm4"; count=10; };
 			class _xx_FHQ_optic_AIM_tan { name="FHQ_optic_AIM_tan"; count=10; };
 			class _xx_FHQ_optic_AC11704_tan { name="FHQ_optic_AC11704_tan"; count=10; };
 			class _xx_FHQ_optic_AC11704 { name="FHQ_optic_AC11704"; count=10; };
@@ -599,15 +574,13 @@ class CfgVehicles {
 			class _xx_SmokeShell { magazine="SmokeShell"; count=100; };
 			class _xx_30Rnd_556x45_Stanag { magazine="30Rnd_556x45_Stanag"; count=300; };
 			class _xx_30Rnd_556x45_Stanag_Tracer_Green { magazine="30Rnd_556x45_Stanag_Tracer_Green"; count=100; };
-			class _xx_30Rnd_mas_556x45_Stanag { magazine="30Rnd_mas_556x45_Stanag"; count=300; };
-			class _xx_30Rnd_mas_556x45_T_Stanag { magazine="30Rnd_mas_556x45_T_Stanag"; count=100; };
 			class _xx_30Rnd_65x39_caseless_mag { magazine="30Rnd_65x39_caseless_mag"; count=100; };
 			class _xx_AGM_30Rnd_65x39_caseless_mag_Tracer_Dim { magazine="AGM_30Rnd_65x39_caseless_mag_Tracer_Dim"; count=100; };
 			};
 			
 		class TransportItems
 			{
-			class _xx_optic_mas_aim { name="optic_mas_aim"; count=10; };
+			class _xx_rhsusf_acc_compm4 { name="rhsusf_acc_compm4"; count=10; };
 			class _xx_FHQ_optic_AIM_tan { name="FHQ_optic_AIM_tan"; count=10; };
 			class _xx_FHQ_optic_AC11704_tan { name="FHQ_optic_AC11704_tan"; count=10; };
 			class _xx_FHQ_optic_AC11704 { name="FHQ_optic_AC11704"; count=10; };
@@ -618,6 +591,7 @@ class CfgVehicles {
 			class _xx_hlc_muzzle_556NATO_KAC { name="hlc_muzzle_556NATO_KAC"; count=10; };
 			class _xx_R3F_SILENCIEUX_HK416 { name="R3F_SILENCIEUX_HK416"; count=10; };
 			class _xx_FHQ_acc_LLM01L { name="FHQ_acc_LLM01L"; count=10; };
+			class _xx_FHQ_acc_ANPEQ15_black { name="FHQ_acc_ANPEQ15_black"; count=10; };
 			};
 			
 		class TransportBackpacks
@@ -850,13 +824,8 @@ class CfgVehicles {
 			{
 			class _xx_SmokeShell { magazine="SmokeShell"; count=100; };
 			class _xx_SmokeShellRed { magazine="SmokeShellRed"; count=100; };
-			class _xx_30Rnd_mas_556x45_Stanag { magazine="30Rnd_mas_556x45_Stanag"; count=300; };
+			class _xx_30Rnd_556x45_Stanag { magazine="30Rnd_556x45_Stanag"; count=300; };
 			class _xx_20Rnd_mas_762x51_Stanag { magazine="20Rnd_mas_762x51_Stanag"; count=300; };
-			class _xx_L85_30Rnd_556x45_Stanag { magazine="L85_30Rnd_556x45_Stanag"; count=300; };
-			class _xx_R3F_30Rnd_556x45_HK416 { magazine="R3F_30Rnd_556x45_HK416"; count=300; };
-			class _xx_R3F_20Rnd_762x51_HK417 { magazine="R3F_20Rnd_762x51_HK417"; count=300; };
-			class _xx_g36_mag { magazine="g36_mag"; count=300; };
-			class _xx_R3F_30Rnd_556x45_FAMAS { magazine="R3F_30Rnd_556x45_FAMAS"; count=300; };
 			class _xx_200Rnd_mas_556x45_T_Stanag { magazine="200Rnd_mas_556x45_T_Stanag"; count=100; };
 			class _xx_150Rnd_762x51_Box_Tracer { magazine="150Rnd_762x51_Box_Tracer"; count=100; };
 			class _xx_sti_200Rnd_556x45_Tracer { magazine="sti_200Rnd_556x45_Tracer"; count=100; };
@@ -876,7 +845,7 @@ class CfgVehicles {
 			class _xx_cse_bandage_basic { name="cse_bandage_basic"; count=300; };
 			class _xx_cse_morphine { name="cse_morphine"; count=100; };
 			class _xx_cse_epinephrine { name="cse_epinephrine"; count=100; };
-			class _xx_cse_blood_iv { name="cse_blood_iv"; count=100; };
+			class _xx_cse_saline_iv { name="cse_saline_iv"; count=100; };
 			};
 			
 		class TransportBackpacks
